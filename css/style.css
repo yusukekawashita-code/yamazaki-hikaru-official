@@ -431,6 +431,9 @@ li {
 }
 
 @media only screen and (max-width: 1499px) {
+  .main-visual__inner {
+    height: min(45vw, 760px);
+  }
   .main-visual__person {
     bottom: -30px;
   }
@@ -439,7 +442,7 @@ li {
   }
 
   .main-visual__copy {
-    top: 10%;
+    top: 20%;
     left: 48%;
     width: min(48%, 500px);
   }
