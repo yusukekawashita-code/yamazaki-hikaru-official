@@ -371,7 +371,6 @@ li {
 .main-visual__inner {
   position: relative;
   width: 100%;
-  max-width: 1920px;
   height: min(37vw, 760px);
   min-height: 500px;
   margin: 0 auto;
