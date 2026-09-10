@@ -438,7 +438,7 @@ li {
     bottom: -30px;
   }
   .main-visual__person {
-    width: min(42%, 800px);
+    width: min(45%, 800px);
   }
 
   .main-visual__copy {
