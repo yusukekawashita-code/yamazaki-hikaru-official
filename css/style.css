@@ -1224,3 +1224,66 @@ li {
     padding: 6px 12px;
   }
 }
+
+/* =========================
+  Support Menu
+========================= */
+
+.support-menu {
+  padding: 100px 0 120px;
+  background-color: var(--white);
+}
+
+.support-menu__inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.support-menu__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.support-menu__item {
+  display: block;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.support-menu__item:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 999px) {
+  .support-menu {
+    padding-block: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .support-menu {
+    padding-block: 70px;
+  }
+
+  .support-menu__list {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .support-menu {
+    padding-block: 50px 60px;
+  }
+  .support-menu__item {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .support-menu__list {
+    gap: 20px;
+  }
+}
