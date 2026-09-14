@@ -1836,12 +1836,13 @@ li {
 .support-page {
   background-color: var(--white);
 }
+
 .support-page__inner {
-  max-width: 740px;
+  max-width: 730px;
 }
 
 .support-page__nav {
-  padding-bottom: 64px;
+  padding: 90px 0 64px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -1934,7 +1935,7 @@ li {
 /* Support Form */
 
 .support-form {
-  max-width: 740px;
+  max-width: 730px;
   margin: 100px auto 0;
   box-sizing: border-box;
 }
@@ -2058,7 +2059,7 @@ li {
   }
 
   .support-page__nav {
-    padding-bottom: 50px;
+    padding: 70px 0 50px;
   }
 
   .support-page__nav-inner {
@@ -2110,7 +2111,7 @@ li {
   }
 
   .support-page__nav {
-    padding-bottom: 36px;
+    padding: 60px 0 36px;
   }
 
   .support-page__nav-inner {
@@ -2199,7 +2200,7 @@ li {
   }
 
   .support-page__nav {
-    padding-bottom: 28px;
+    padding: 60px 0 30px;
   }
 
   .support-page__nav-inner {
@@ -2250,5 +2251,205 @@ li {
   .support-form__button {
     width: min(100%, 260px);
     padding-inline: 20px;
+  }
+}
+
+/* Donation Section */
+
+.donation-section {
+  padding-block: 200px;
+  background-color: color-mix(in srgb, var(--highlight) 20%, #fff);
+}
+
+.donation-section__inner {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.donation-section__heading {
+  text-align: center;
+}
+
+.donation-section__icon {
+  display: block;
+  width: 96px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.donation-section__title {
+  font-family: var(--font-mincho);
+  font-size: var(--fz44);
+  font-weight: 700;
+  color: var(--green);
+  line-height: 1.4;
+  margin-top: 40px;
+}
+
+.donation-section__content {
+  margin-top: 70px;
+}
+
+.donation-section__lead {
+  font-size: var(--fz19);
+  font-family: var(--font-mincho);
+  font-weight: 500;
+  line-height: 2;
+}
+
+.donation-section__checks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.donation-section__check {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 22px;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.donation-section__checkbox {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 8px;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+
+.donation-section__check-text {
+  font-family: var(--font-mincho);
+  font-size: var(--fz19);
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.donation-section__submit {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.donation-section__button {
+  padding: 12px 24px;
+  border: none;
+  background-color: var(--btnGreen);
+  color: var(--white);
+  font-size: var(--fz25);
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.donation-section__button:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 999px) {
+  .donation-section {
+    padding-block: 140px;
+  }
+
+  .donation-section__inner {
+    max-width: 700px;
+  }
+
+  .donation-section__icon {
+    width: 88px;
+  }
+
+  .donation-section__title {
+    margin-top: 32px;
+  }
+
+  .donation-section__content {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .donation-section {
+    padding-block: 90px;
+  }
+
+  .donation-section__icon {
+    width: 78px;
+  }
+
+  .donation-section__title {
+    margin-top: 26px;
+  }
+
+  .donation-section__content {
+    margin-top: 45px;
+  }
+
+  .donation-section__checks {
+    gap: 14px;
+    margin-top: 32px;
+  }
+
+  .donation-section__check {
+    gap: 14px;
+    padding: 16px 18px;
+  }
+
+  .donation-section__checkbox {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+  }
+
+  .donation-section__submit {
+    margin-top: 45px;
+  }
+
+  .donation-section__button {
+    padding: 12px 22px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .donation-section {
+    padding-block: 70px;
+  }
+
+  .donation-section__icon {
+    width: 68px;
+  }
+
+  .donation-section__title {
+    margin-top: 22px;
+  }
+
+  .donation-section__content {
+    margin-top: 36px;
+  }
+
+  .donation-section__checks {
+    margin-top: 28px;
+  }
+
+  .donation-section__check {
+    padding: 14px;
+  }
+
+  .donation-section__checkbox {
+    width: 17px;
+    height: 17px;
+    margin-top: 4px;
+  }
+
+  .donation-section__submit {
+    margin-top: 36px;
+  }
+
+  .donation-section__button {
+    padding: 8px 16px;
   }
 }
