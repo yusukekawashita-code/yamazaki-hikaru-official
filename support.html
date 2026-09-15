@@ -344,6 +344,259 @@
       </div>
     </section>
 
+    <section class="membership-section" id="membership">
+      <div class="membership-section__inner inner">
+
+        <div class="membership-section__heading">
+          <img src="./images/party-membership-icon.png" alt="" class="membership-section__icon">
+
+          <h2 class="membership-section__title">
+            党員登録・更新フォーム
+          </h2>
+        </div>
+
+        <div class="membership-section__content">
+
+          <p class="membership-section__lead">
+            日本維新の会は、党の綱領や政策にご賛同いただき、入党していただける個人の力を募集しております。日本維新の会のホームページ上からもお申込みができますが、山﨑光を通して、ご入党いただけますと大変ありがたく存じます。<br>
+            ※党員の更新手続きについても、こちらからお手続きをお願いいたします。<br>
+            毎年２月末までにお手続きをしていただきますよう何卒よろしくお願い申し上げます。
+          </p>
+
+          <div class="membership-section__details">
+
+            <div class="membership-section__item">
+              <h3 class="membership-section__item-title">
+                入党資格<span>（党の HP より抜粋）</span>
+              </h3>
+
+              <p class="membership-section__text">
+                (1) 日本維新の会の綱領、主義、政策に賛同される方。<br>
+                (2) 満 18 歳以上で、日本国籍を有する方。<br>
+                (3) 他の政党の党籍を持たない方。<br>
+                ※入党資格の審査に際し、記載事項に不備があった場合は、受付けられません。<br>
+                党員には党員証をお送りさせていただきます。
+              </p>
+            </div>
+
+            <div class="membership-section__item">
+              <h3 class="membership-section__item-title">
+                申し込み方法
+              </h3>
+
+              <p class="membership-section__text">
+                [1] 下記フォームに必要事項をご記入ください。<br>
+                [2] 申込フォームを送信後、ご入力いただいたメールアドレスへ自動返信メールが届きます。<br>
+                [3] お支払方法を選択の上、党費をお支払いください。
+              </p>
+            </div>
+
+            <div class="membership-section__item">
+              <h3 class="membership-section__item-title">
+                党費
+              </h3>
+
+              <p class="membership-section__text">
+                年額 2,000 円（入党日〜翌年３月末まで）
+              </p>
+            </div>
+
+            <div class="membership-section__item">
+              <h3 class="membership-section__item-title">
+                決済方法
+              </h3>
+
+              <p class="membership-section__text">
+                手渡し（堺市北区にお住まいの方）・銀行振込・楽天キャッシュ・PayPay での決済が可能です。
+              </p>
+            </div>
+
+          </div>
+
+          <div class="membership-section__notes">
+            <p class="membership-section__text">
+              ※銀行振込みの際は、フォームに記載したお名前でご入金ください。ご本人からの入金でない場合は、お振込み名義を備考欄にご記入ください。<br>
+              ※印は入力必須項目です。お送りいただきました個人情報は、一般党員入党事務および日本維新の会からの各種お知らせ以外の目的で使用することはありません。
+            </p>
+          </div>
+
+          <div class="membership-form">
+            <form class="membership-form__form" action="#" method="post" enctype="multipart/form-data">
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-name" class="membership-form__label">お名前</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="text" id="membership-name" name="name" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-kana" class="membership-form__label">フリガナ</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="text" id="membership-kana" name="kana" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-birthday" class="membership-form__label">生年月日</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="text" id="membership-birthday" name="birthday" class="membership-form__input"
+                    placeholder="年 / 月 / 日" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-tel" class="membership-form__label">電話番号</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="tel" id="membership-tel" name="tel" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-email" class="membership-form__label">メールアドレス</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="email" id="membership-email" name="email" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-postal" class="membership-form__label">郵便番号</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="text" id="membership-postal" name="postal" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-address" class="membership-form__label">住所</label>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <input type="text" id="membership-address" name="address" class="membership-form__input" required>
+                </div>
+              </div>
+
+              <div class="membership-form__row membership-form__row--upload">
+                <div class="membership-form__label-wrap">
+                  <span class="membership-form__label">ファイルアップロード</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <p class="membership-form__upload-description">
+                    以下４種類の内、いずれかの写真画像かコピーを添付してください。<br>
+                    ①運転免許証　②マイナンバーカード　③パスポート　④健康保険証<br>
+                    ファイルサイズ：3MB 以下、形式：jpg,png,tiff,bmp,gif,pdf<br>
+                    ※裏面は記載事項がある場合のみアップロードください
+                  </p>
+
+                  <div class="membership-form__uploads">
+
+                    <div class="membership-form__upload">
+                      <span class="membership-form__upload-label">表面</span>
+
+                      <label class="membership-form__file-button">
+                        ファイルを選択
+                        <input type="file" name="identification_front" class="membership-form__file"
+                          accept=".jpg,.jpeg,.png,.tiff,.tif,.bmp,.gif,.pdf">
+                      </label>
+                    </div>
+
+                    <div class="membership-form__upload">
+                      <span class="membership-form__upload-label">裏面</span>
+
+                      <label class="membership-form__file-button">
+                        ファイルを選択
+                        <input type="file" name="identification_back" class="membership-form__file"
+                          accept=".jpg,.jpeg,.png,.tiff,.tif,.bmp,.gif,.pdf">
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="membership-form__row membership-form__row--payment">
+                <div class="membership-form__label-wrap">
+                  <span class="membership-form__label">決済方法</span>
+                  <span class="membership-form__required">必須</span>
+                </div>
+
+                <div class="membership-form__field">
+                  <div class="membership-form__radios">
+
+                    <label class="membership-form__radio">
+                      <input type="radio" name="payment" value="hand" required>
+                      <span>手渡し</span>
+                    </label>
+
+                    <label class="membership-form__radio">
+                      <input type="radio" name="payment" value="bank">
+                      <span>銀行振込</span>
+                    </label>
+
+                    <label class="membership-form__radio">
+                      <input type="radio" name="payment" value="rakuten-cash">
+                      <span>楽天キャッシュ</span>
+                    </label>
+
+                    <label class="membership-form__radio">
+                      <input type="radio" name="payment" value="paypay">
+                      <span>PayPay</span>
+                    </label>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="membership-form__row membership-form__row--textarea">
+                <div class="membership-form__label-wrap">
+                  <label for="membership-note" class="membership-form__label">備考欄</label>
+                </div>
+
+                <div class="membership-form__field">
+                  <textarea id="membership-note" name="note" class="membership-form__textarea"></textarea>
+                </div>
+              </div>
+
+              <div class="membership-form__submit">
+                <button type="submit" class="membership-form__button">
+                  確認画面へ進む
+                </button>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
 
   </main>
 
